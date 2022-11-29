@@ -1,61 +1,98 @@
-# T10 Project
+# Documentation (Last update: 2022-11-29)
 
-
-
-## Getting started
-
-To make it easy for you to get started with GitLab, here's a list of recommended next steps.
-
-Already a pro? Just edit this README.md and make it your own. Want to make it easy? [Use the template at the bottom](#editing-this-readme)!
-
-## Add your files
-
-- [ ] [Create](https://docs.gitlab.com/ee/user/project/repository/web_editor.html#create-a-file) or [upload](https://docs.gitlab.com/ee/user/project/repository/web_editor.html#upload-a-file) files
-- [ ] [Add files using the command line](https://docs.gitlab.com/ee/gitlab-basics/add-file.html#add-a-file-using-the-command-line) or push an existing Git repository with the following command:
-
-```
-cd existing_repo
-git remote add origin https://git.chalmers.se/courses/dit355/dit356-2022/t-10/t10-project.git
-git branch -M main
-git push -uf origin main
-```
-
-## Integrate with your tools
-
-- [ ] [Set up project integrations](https://git.chalmers.se/courses/dit355/dit356-2022/t-10/t10-project/-/settings/integrations)
-
-## Collaborate with your team
-
-- [ ] [Invite team members and collaborators](https://docs.gitlab.com/ee/user/project/members/)
-- [ ] [Create a new merge request](https://docs.gitlab.com/ee/user/project/merge_requests/creating_merge_requests.html)
-- [ ] [Automatically close issues from merge requests](https://docs.gitlab.com/ee/user/project/issues/managing_issues.html#closing-issues-automatically)
-- [ ] [Enable merge request approvals](https://docs.gitlab.com/ee/user/project/merge_requests/approvals/)
-- [ ] [Automatically merge when pipeline succeeds](https://docs.gitlab.com/ee/user/project/merge_requests/merge_when_pipeline_succeeds.html)
-
-## Test and Deploy
-
-Use the built-in continuous integration in GitLab.
-
-- [ ] [Get started with GitLab CI/CD](https://docs.gitlab.com/ee/ci/quick_start/index.html)
-- [ ] [Analyze your code for known vulnerabilities with Static Application Security Testing(SAST)](https://docs.gitlab.com/ee/user/application_security/sast/)
-- [ ] [Deploy to Kubernetes, Amazon EC2, or Amazon ECS using Auto Deploy](https://docs.gitlab.com/ee/topics/autodevops/requirements.html)
-- [ ] [Use pull-based deployments for improved Kubernetes management](https://docs.gitlab.com/ee/user/clusters/agent/)
-- [ ] [Set up protected environments](https://docs.gitlab.com/ee/ci/environments/protected_environments.html)
-
-***
-
-# Editing this README
-
-When you're ready to make this README your own, just edit this file and use the handy template below (or feel free to structure it however you want - this is just a starting point!). Thank you to [makeareadme.com](https://www.makeareadme.com/) for this template.
-
-## Suggestions for a good README
-Every project is different, so consider which of these sections apply to yours. The sections used in the template are suggestions for most open source projects. Also keep in mind that while a README can be too long and detailed, too long is better than too short. If you think your README is too long, consider utilizing another form of documentation rather than cutting out information.
+# About the Project
 
 ## Name
-Choose a self-explaining name for your project.
+Dens Cura: Distributed dental clinic booking system
 
 ## Description
-Let people know what your project can do specifically. Provide context and add a link to any reference visitors might be unfamiliar with. A list of Features or a Background subsection can also be added here. If there are alternatives to your project, this is a good place to list differentiating factors.
+It is undoubtable that dental health is crucial to one's well-being. For its importance, a modern society is expected to support a decent dental care of the people. This support includes a right to get a dental care in a timely manner without travelling too far fron one's residence. These features are facilitated by the online booking system that support easy and effienct reservation of timeslot in dental clinics. Despite the importance, not every society is equipped with the dental clinic booking system that satisfies all residents' needs; one example is the Västra Götaland county in Sweden.
+
+As of autumn 2022, the only web-service for online dental clinic booking is Folktandvården, the Public Dental Service in Västra Götaland country. Although this service provides the users with multiple functionalities, there are several limitations that can be improves for higher customer satisfaction. One of the major issues is that the current Folktandvården system only covers search for public dental clinics and excludes numerous private clinics. Moreover, in the current system the user should manually filter the geographical search area as the system is not using the current location of the user connected to a map.
+
+The project aims to develop a brand-new distributed system for dental clinic booking which overcomes the identified challenges in the current setting; that is, to provide the user with access to all dental clinics in the city of Gothenburg. The project team consists of eight student developers. The initial and foundational requirements were provided by the university of Gothenburg to ensure the quality of the software. Additionally, the project team has been added creativity in the project to maximize the user satisfaction.
+
+## Development Team
+
+| Team member | Main Role | Tasks |
+| ------ | ------ | ------ |
+| Mijin Kim | Product Owner, Developer | Product backlog maintanance, contact point with clients, software development |
+| Erik Harring | Scrum Master, Developer | Support agile practice in the team, software development |
+| Christopher Andersson | Developer | Software Development |
+| Jonathan Bergdahl | Developer | Software Development |
+| Sanna Evertsson | Developer | Git Responsible, Software Development |
+| William Hilmersson | Developer | Software Development |
+| Patricia Antunes Marklund | Developer | Kanban Board Responsible, Software Development |
+| Anna Törngren | Developer | Software Development |
+
+## Project repositories
+To implement the distributed nature of *Dens Cura*, the system has been developed in the following five repositories in GitLab:
+- [Back-end](https://git.chalmers.se/courses/dit355/dit356-2022/t-10/backend)
+- [Front-end](https://git.chalmers.se/courses/dit355/dit356-2022/t-10/frontend)
+- [Clinic back-end](https://git.chalmers.se/courses/dit355/dit356-2022/t-10/booking)
+- [Broker](https://git.chalmers.se/courses/dit355/dit356-2022/t-10/broker)
+- [Filter](https://git.chalmers.se/courses/dit355/dit356-2022/t-10/filter)
+
+## Software Requirement Specification (SRS)
+This is a living document that all team members are updating frequently. As the readme file is not a suitable place to keep these changes, the SRS documentation is maintained in a shared document.
+This part will be updated before the final submission.
+
+## Software Architecture Document (SAD)
+### Component diagram
+![Component diagram with a high-level view](./component_diagram.png)
+
+
+# Project Management Report (PMR)
+
+## Project management practices used
+The project team has actively adopted the principles of Scrum in combination with Kanban.
+- The important Scrum decisions that the development team has been made are:
+  - Election of a Product Owner (PO) and a Scrum Master (SM)
+  - The project consists of multiple sprints
+  - Diverse Scrum artifacts; e.g. product backlog, sprint backlog
+  - Diverse sprint rituals; e.g. sprint planning, sprint review and sprint retrospective
+- [A kanban board in Trello](https://trello.com/b/mpXIOkcb/dit-356-2022-team-10)  has been used to facilitate the team's work with visual presentation of tasks
+
+
+## Important project management decisions (regarding schedule and scope)
+
+*Iteration week 1 (Sprint 1)* 
+- The team created a team contract to reach agreement on the common aim, vacation days as well as basic guidelines for the team work.
+- The team has been agreed on communication channels and the way of communication.
+- The team decided to actively adopt the Scrum practices with certian variations.
+- Roles of the team members have been decided after analyzing each member's strength.
+  - The Project Owner and Scrum Master of the team has been decided. This will not change during the project cycle due to short time period.
+  - All members got a position as a software developer.
+  - Additionally, Git responsible and Trello responsible have been selected.
+- Based on specific milestone dates provided by the project sponsor, the timeframe of four sprints has been decided.
+- Considering the sprint schedule, plans and dates for regular Scrum events were decided.
+  - Every Tuesday and Thursday, the team will conduct a 15-minutes daily Scrum meeting.
+  - A sprint meeting shall be held one day before the milestone of each sprint.
+  - There should be two sprint review sessions per sprint:
+    - The first sprint review shall be conducted a day before the milestone date at a team level (including Product Owner and Scrum Master).
+    - The second sprint review shall be conducted on the milestone date with the Scrum team and the teaching assistence of the course.
+  - Sprint planning shall be made shortly after the latter sprint review. In a sprint meeting, product backlog shall be refined and a new sprint backlog shall be created.
+  
+*Iteration week 2 (Sprint 1)*
+- Continued from the previous iteration, the team have agreed to spend iteration 2 for the project planning. Furthermore, the team made a rough plan of the focus of the software development during the project cycle as below:
+  - *Sprint 1 (current sprint)*: Finalizing project planning
+  - *Sprint 2*: Back-end development
+  - *Sprint 3*: Front-end development
+  - *Sprint 4*: Integration of the back-end and front-end & resolving any issue in development
+- Based one the grading criteria of the course, the team agreed on minimum viable products to deliver and also created a list of optional features which could be implemented to add extra value to the product; i.e. login functionality and the level of GUI aesthetics.
+- 
+
+*Iteration week 3 (Sprint 2)*
+- The original sprint-2 backlog has been updated during the sprint as the backlog items had to be broken down further to faciliate the members' work.
+
+*Iteration week 4 (Sprint 2)*
+- The sprint review and sprint retrospective which originally scheduled on 30th November with the TA have been changed to 29th November considering the deadline of retrospective-2 submission being on 30th of November.
+- The team members have worked efficiently during the iteration and have finished many items in the sprint-2 backlog earlier than the estimation. Therefore, the team has started working on several front-end related features in the product backlog, which were planned to be done in the upcoming sprint.
+  
+
+
+
+**keep for the potential usage (everything below this line)**
 
 ## Badges
 On some READMEs, you may see small images that convey metadata, such as whether or not all the tests are passing for the project. You can use Shields to add some to your README. Many services also have instructions for adding a badge.
