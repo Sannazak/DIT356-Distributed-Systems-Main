@@ -27,9 +27,9 @@ The project aims to develop a brand-new distributed system for dental clinic boo
 
 ## Project repositories
 To implement the distributed nature of *Dens Cura*, the system has been developed in the following five repositories in GitLab:
-- [Back-end](https://git.chalmers.se/courses/dit355/dit356-2022/t-10/backend)
-- [Front-end](https://git.chalmers.se/courses/dit355/dit356-2022/t-10/frontend)
-- [Clinic back-end](https://git.chalmers.se/courses/dit355/dit356-2022/t-10/booking)
+- [User Backend](https://git.chalmers.se/courses/dit355/dit356-2022/t-10/backend)
+- [Frontend](https://git.chalmers.se/courses/dit355/dit356-2022/t-10/frontend)
+- [Clinic backend](https://git.chalmers.se/courses/dit355/dit356-2022/t-10/booking)
 - [Broker](https://git.chalmers.se/courses/dit355/dit356-2022/t-10/broker)
 - [Filter](https://git.chalmers.se/courses/dit355/dit356-2022/t-10/filter)
 
@@ -89,8 +89,8 @@ The project team has actively adopted the principles of Scrum in combination wit
 - The sprint review and sprint retrospective which originally scheduled on 30th November with the TA have been changed to 29th November considering the deadline of retrospective-2 submission being on 30th of November.
 - The team members have worked efficiently during the iteration and have finished many items in the sprint-2 backlog earlier than the estimation. Therefore, the team has started working on several front-end related features in the product backlog, which were planned to be done in the upcoming sprint.
   
-
-
+*Iteration week 5 (Sprint 3)*
+- In the original project scope, the team has decided to implement a login functionality by verifying user with a login token. However, the team encountered several issues with login functionality which hinders the progress of all related tasks. The team has decided to commit a day to fix the issue(7th of December). If the issue cannot be solved, the login functionality shall be excluded out of the project scope.
 
 **keep for the potential usage (everything below this line)**
 
