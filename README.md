@@ -1,4 +1,4 @@
-# Documentation (Last update: 2022-11-29)
+# Documentation (Last update: 2022-12-12)
 
 # About the Project
 
@@ -27,9 +27,9 @@ The project aims to develop a brand-new distributed system for dental clinic boo
 
 ## Project repositories
 To implement the distributed nature of *Dens Cura*, the system has been developed in the following five repositories in GitLab:
-- [User Backend](https://git.chalmers.se/courses/dit355/dit356-2022/t-10/backend)
-- [Frontend](https://git.chalmers.se/courses/dit355/dit356-2022/t-10/frontend)
+- [Booking Backend](https://git.chalmers.se/courses/dit355/dit356-2022/t-10/booking-backend)
 - [Clinic backend](https://git.chalmers.se/courses/dit355/dit356-2022/t-10/booking)
+- [Frontend](https://git.chalmers.se/courses/dit355/dit356-2022/t-10/frontend)
 - [Broker](https://git.chalmers.se/courses/dit355/dit356-2022/t-10/broker)
 - [Filter](https://git.chalmers.se/courses/dit355/dit356-2022/t-10/filter)
 
@@ -91,6 +91,13 @@ The project team has actively adopted the principles of Scrum in combination wit
   
 *Iteration week 5 (Sprint 3)*
 - In the original project scope, the team has decided to implement a login functionality by verifying user with a login token. However, the team encountered several issues with login functionality which hinders the progress of all related tasks. The team has decided to commit a day to fix the issue(7th of December). If the issue cannot be solved, the login functionality shall be excluded out of the project scope.
+
+*Iteration week 6 (Sprint 3)*<br />
+  There was a significant change in the project scope and the software architecture.
+  - Change in the project scope: The user-related functionalities, which the team has been put a lot of effort and time, started to cause issues in the project and take a lot more time than the team has estimated. As they are not mandatory requirements of the course, the team has decided to move them out of the scope in order to commit all the resources into the more important tasks.
+  - Change in the software architecture: Before the scope change, the team had four separate components (repositories) including User Backend repository which contains all user-related functionalities such as login, registration and user sessions. As the team decided to remove the user-related functionalities out of the scope, the User Backend is no longer in use. This leads the team to have only three independent components in the system, which does not satisfy the grading criteria; i.e. at least four independent components are required in the system. Thus, the team had to split Clinic Backend repository into Clinic Backend and Booking Backend repository.
+  - The team has completed all necessary features about booking functionlities by the end of Sprint 3. All remaining features and documentation will be conducted in Sprint 4 according to the original schedule.
+
 
 **keep for the potential usage (everything below this line)**
 
