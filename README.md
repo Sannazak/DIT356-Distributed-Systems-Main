@@ -52,6 +52,10 @@ The project team has actively adopted the principles of Scrum in combination wit
   - Diverse Scrum artifacts; e.g. product backlog, sprint backlog
   - Diverse sprint rituals; e.g. sprint planning, sprint review and sprint retrospective
 - [A kanban board in Trello](https://trello.com/b/mpXIOkcb/dit-356-2022-team-10)  has been used to facilitate the team's work with visual presentation of tasks
+- Each sprint started with a sprint planning where the team has decided the tasks, broken down large tasks and assigned tasks to members based on time estimation which was made considering each member's capability and availability.
+- Each sprint ended with a sprint retrospective and a sprint review.
+  - In the sprint retrospectives, the team has reflected how the agile practices had been used during the sprints as well as has discussed how the project, from the agile perspective, can be improved. The result of the sprint retrospectives are documented in each retrospective document and handed in on Canvas.
+  - In each sprint, two sprint review sessions have been conducted. First sprint review sessions have been made at the team level, where the team discussed the performance during the sprints; this is what has been written in retrospective report submissions. For the second sprint reviews, the teaching assistance assigned to the team has also participated to provide constructive feedback. The result of the second sprint review sessions are reflected in the upcoming sprint's backlog creation and potential changes in the project scope.
 
 
 ## Important project management decisions (regarding schedule and scope)
@@ -95,13 +99,15 @@ The project team has actively adopted the principles of Scrum in combination wit
   There was a significant change in the project scope and the software architecture.
   - Change in the project scope: The user-related functionalities, which the team has been put a lot of effort and time, started to cause issues in the project and take a lot more time than the team has estimated. As they are not mandatory requirements of the course, the team has decided to move them out of the scope in order to commit all the resources into the more important tasks.
   - Change in the software architecture: Before the scope change, the team had four separate components (repositories) including User Backend repository which contains all user-related functionalities such as login, registration and user sessions. As the team decided to remove the user-related functionalities out of the scope, the User Backend is no longer in use. This leads the team to have only three independent components in the system, which does not satisfy the grading criteria; i.e. at least four independent components are required in the system. Thus, the team had to split Clinic Backend repository into Clinic Backend and Booking Backend repository.
-  - The team has completed all necessary features about booking functionlities by the end of Sprint 3. All remaining t -features and documentation will be conducted in Sprint 4 according to the original schedule.
+  - The team has completed all necessary features about booking functionlities by the end of Sprint 3. All remaining features and documentation will be conducted in Sprint 4 according to the original schedule.
 
 *Iteration week 7 (Sprint 4)*
 - There was no change in the schedule and the scope.
+- As planned before, the team has focused on completing tasks in the sprint backlog before the vacation begins.
 
 *Iteration week 8 (Sprint 4)*
 - There was no change in the schedule and the scope.
+- As planned before, the team has focused on completing all planned tasks to ensure the project success. This includes finishing all mandatory and optional features as well as submitting the retrospective-4 report.
 
 ## Usage
 ![User searches a booking with booking ID](sequence-diagram_search-booking.png)
