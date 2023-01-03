@@ -1,4 +1,4 @@
-# Documentation (Last update: 2022-12-12)
+# Documentation (Last update: 2023-01-03)
 
 # About the Project
 
@@ -96,41 +96,17 @@ The project team has actively adopted the principles of Scrum in combination wit
   There was a significant change in the project scope and the software architecture.
   - Change in the project scope: The user-related functionalities, which the team has been put a lot of effort and time, started to cause issues in the project and take a lot more time than the team has estimated. As they are not mandatory requirements of the course, the team has decided to move them out of the scope in order to commit all the resources into the more important tasks.
   - Change in the software architecture: Before the scope change, the team had four separate components (repositories) including User Backend repository which contains all user-related functionalities such as login, registration and user sessions. As the team decided to remove the user-related functionalities out of the scope, the User Backend is no longer in use. This leads the team to have only three independent components in the system, which does not satisfy the grading criteria; i.e. at least four independent components are required in the system. Thus, the team had to split Clinic Backend repository into Clinic Backend and Booking Backend repository.
-  - The team has completed all necessary features about booking functionlities by the end of Sprint 3. All remaining features and documentation will be conducted in Sprint 4 according to the original schedule.
+  - The team has completed all necessary features about booking functionlities by the end of Sprint 3. All remaining t -features and documentation will be conducted in Sprint 4 according to the original schedule.
 
+*Iteration week 7 (Sprint 4)*
+- There was no change in the schedule and the scope.
 
-**keep for the potential usage (everything below this line)**
-
-## Badges
-On some READMEs, you may see small images that convey metadata, such as whether or not all the tests are passing for the project. You can use Shields to add some to your README. Many services also have instructions for adding a badge.
-
-## Visuals
-Depending on what you are making, it can be a good idea to include screenshots or even a video (you'll frequently see GIFs rather than actual videos). Tools like ttygif can help, but check out Asciinema for a more sophisticated method.
-
-## Installation
-Within a particular ecosystem, there may be a common way of installing things, such as using Yarn, NuGet, or Homebrew. However, consider the possibility that whoever is reading your README is a novice and would like more guidance. Listing specific steps helps remove ambiguity and gets people to using your project as quickly as possible. If it only runs in a specific context like a particular programming language version or operating system or has dependencies that have to be installed manually, also add a Requirements subsection.
+*Iteration week 8 (Sprint 4)*
+- There was no change in the schedule and the scope.
 
 ## Usage
-Use examples liberally, and show the expected output if you can. It's helpful to have inline the smallest example of usage that you can demonstrate, while providing links to more sophisticated examples if they are too long to reasonably include in the README.
+![User searches a booking with booking ID](sequence-diagram_search-booking.png)
+![User cancels a booking](sequence-diagram_cancel-booking.png)
 
-## Support
-Tell people where they can go to for help. It can be any combination of an issue tracker, a chat room, an email address, etc.
-
-## Roadmap
-If you have ideas for releases in the future, it is a good idea to list them in the README.
-
-## Contributing
-State if you are open to contributions and what your requirements are for accepting them.
-
-For people who want to make changes to your project, it's helpful to have some documentation on how to get started. Perhaps there is a script that they should run or some environment variables that they need to set. Make these steps explicit. These instructions could also be useful to your future self.
-
-You can also document commands to lint the code or run tests. These steps help to ensure high code quality and reduce the likelihood that the changes inadvertently break something. Having instructions for running tests is especially helpful if it requires external setup, such as starting a Selenium server for testing in a browser.
-
-## Authors and acknowledgment
-Show your appreciation to those who have contributed to the project.
-
-## License
-For open source projects, say how it is licensed.
-
-## Project status
-If you have run out of energy or time for your project, put a note at the top of the README saying that development has slowed down or stopped completely. Someone may choose to fork your project or volunteer to step in as a maintainer or owner, allowing your project to keep going. You can also make an explicit request for maintainers.
+## Roadmap and project status
+![Roadmap](Roadmap.png)
