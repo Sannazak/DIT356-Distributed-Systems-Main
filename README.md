@@ -49,33 +49,33 @@ The project team has actively adopted the principles of Scrum in combination wit
 - The important Scrum decisions that the development team has been made are:
   - Election of a Product Owner (PO) and a Scrum Master (SM)
   - The project consists of multiple sprints
-  - Diverse Scrum artifacts; e.g. product backlog, sprint backlog
-  - Diverse sprint rituals; e.g. sprint planning, sprint review and sprint retrospective
+  - Diverse Scrum artifacts; e.g., product backlog, sprint backlog
+  - Diverse sprint rituals; e.g., sprint planning, sprint review and sprint retrospective
 - [A kanban board in Trello](https://trello.com/b/mpXIOkcb/dit-356-2022-team-10)  has been used to facilitate the team's work with visual presentation of tasks
 - Each sprint started with a sprint planning where the team has decided the tasks, broken down large tasks and assigned tasks to members based on time estimation which was made considering each member's capability and availability.
 - Each sprint ended with a sprint retrospective and a sprint review.
-  - In the sprint retrospectives, the team has reflected how the agile practices had been used during the sprints as well as has discussed how the project, from the agile perspective, can be improved. The result of the sprint retrospectives are documented in each retrospective document and handed in on Canvas.
-  - In each sprint, two sprint review sessions have been conducted. First sprint review sessions have been made at the team level, where the team discussed the performance during the sprints; this is what has been written in retrospective report submissions. For the second sprint reviews, the teaching assistance assigned to the team has also participated to provide constructive feedback. The result of the second sprint review sessions are reflected in the upcoming sprint's backlog creation and potential changes in the project scope.
+  - In the sprint retrospectives, the team has reflected on how the agile practices had been used during the sprints as well as has discussed how the project, from the agile perspective, can be improved. The result of the sprint retrospectives is documented in each retrospective document and handed in on Canvas.
+  - In each sprint, two sprint review sessions have been conducted. First sprint review sessions have been held at the team level, where the team discussed the performance during the sprints; this is what has been written in retrospective report submissions. For the second sprint reviews, the teaching assistant assigned to the team has also participated to provide constructive feedback. The results of the second sprint review sessions are reflected in the upcoming sprint's backlog creation and potential changes in the project scope.
 
 
 ## Important project management decisions (regarding schedule and scope)
 
 *Iteration week 1 (Sprint 1)* 
-- The team created a team contract to reach agreement on the common aim, vacation days as well as basic guidelines for the team work.
+- The team created a team contract to reach agreement on the common aim, vacation days as well as basic guidelines for the team's work.
 - The team has been agreed on communication channels and the way of communication.
-- The team decided to actively adopt the Scrum practices with certian variations.
+- The team decided to actively adopt the Scrum practices with certain variations.
 - Roles of the team members have been decided after analyzing each member's strength.
-  - The Project Owner and Scrum Master of the team has been decided. This will not change during the project cycle due to short time period.
-  - All members got a position as a software developer.
+  - The Project Owner and Scrum Master of the team has been decided. This will not change during the project cycle due to the short time period.
+  - All members got positions as software developers.
   - Additionally, Git responsible and Trello responsible have been selected.
 - Based on specific milestone dates provided by the project sponsor, the timeframe of four sprints has been decided.
 - Considering the sprint schedule, plans and dates for regular Scrum events were decided.
-  - Every Tuesday and Thursday, the team will conduct a 15-minutes daily Scrum meeting.
+  - Every Tuesday and Thursday, the team will conduct a 15-minute daily Scrum meeting.
   - A sprint meeting shall be held one day before the milestone of each sprint.
   - There should be two sprint review sessions per sprint:
     - The first sprint review shall be conducted a day before the milestone date at a team level (including Product Owner and Scrum Master).
-    - The second sprint review shall be conducted on the milestone date with the Scrum team and the teaching assistence of the course.
-  - Sprint planning shall be made shortly after the latter sprint review. In a sprint meeting, product backlog shall be refined and a new sprint backlog shall be created.
+    - The second sprint review shall be conducted on the milestone date with the Scrum team and the teaching assistant of the course.
+  - Sprint planning shall be made shortly after the latter sprint review. In a sprint meeting, the product backlog shall be refined and a new sprint backlog shall be created.
   
 *Iteration week 2 (Sprint 1)*
 - Continued from the previous iteration, the team have agreed to spend iteration 2 for the project planning. Furthermore, the team made a rough plan of the focus of the software development during the project cycle as below:
@@ -83,23 +83,23 @@ The project team has actively adopted the principles of Scrum in combination wit
   - *Sprint 2*: Back-end development
   - *Sprint 3*: Front-end development
   - *Sprint 4*: Integration of the back-end and front-end & resolving any issue in development
-- Based one the grading criteria of the course, the team agreed on minimum viable products to deliver and also created a list of optional features which could be implemented to add extra value to the product; i.e. login functionality and the level of GUI aesthetics.
+- Based on the grading criteria of the course, the team agreed on minimum viable products to deliver and also created a list of optional features which could be implemented to add extra value to the product; i.e., login functionality and the level of GUI aesthetics.
 
 *Iteration week 3 (Sprint 2)*
-- The original sprint-2 backlog has been updated during the sprint as the backlog items had to be broken down further to faciliate the members' work.
+- The original sprint-2 backlog has been updated during the sprint as the backlog items had to be broken down further to facilitate the members' work.
 
 *Iteration week 4 (Sprint 2)*
 - The sprint review and sprint retrospective which originally scheduled on 30th November with the TA have been changed to 29th November considering the deadline of retrospective-2 submission being on 30th of November.
-- The team members have worked efficiently during the iteration and have finished many items in the sprint-2 backlog earlier than the estimation. Therefore, the team has started working on several front-end related features in the product backlog, which were planned to be done in the upcoming sprint.
+- The team members worked efficiently during the iteration and finished many items in the sprint-2 backlog earlier than the estimation. Therefore, the team has started working on several front-end related features in the product backlog, which were planned to be done in the upcoming sprint.
   
 *Iteration week 5 (Sprint 3)*
-- In the original project scope, the team has decided to implement a login functionality by verifying user with a login token. However, the team encountered several issues with login functionality which hinders the progress of all related tasks. The team has decided to commit a day to fix the issue(7th of December). If the issue cannot be solved, the login functionality shall be excluded out of the project scope.
+- In the original project scope, the team has decided to implement a login functionality by verifying user with a login token. However, the team encountered several issues with login functionality which hinders the progress of all related tasks. The team has decided to commit a day to fix the issue (7th of December). If the issue cannot be solved, the login functionality shall be excluded out of the project scope.
 
 *Iteration week 6 (Sprint 3)*<br />
   There was a significant change in the project scope and the software architecture.
-  - Change in the project scope: The user-related functionalities, which the team has been put a lot of effort and time, started to cause issues in the project and take a lot more time than the team has estimated. As they are not mandatory requirements of the course, the team has decided to move them out of the scope in order to commit all the resources into the more important tasks.
-  - Change in the software architecture: Before the scope change, the team had four separate components (repositories) including User Backend repository which contains all user-related functionalities such as login, registration and user sessions. As the team decided to remove the user-related functionalities out of the scope, the User Backend is no longer in use. This leads the team to have only three independent components in the system, which does not satisfy the grading criteria; i.e. at least four independent components are required in the system. Thus, the team had to split Clinic Backend repository into Clinic Backend and Booking Backend repository.
-  - The team has completed all necessary features about booking functionlities by the end of Sprint 3. All remaining features and documentation will be conducted in Sprint 4 according to the original schedule.
+  - Change in the project scope: The user-related functionalities, which the team has been putting a lot of effort and time into, started to cause issues in the project and take a lot more time than the team had estimated. As they are not mandatory requirements of the course, the team has decided to move them out of the scope in order to commit all the resources into the more important tasks.
+  - Change in the software architecture: Before the scope change, the team had four separate components (repositories) including User Backend repository which contains all user-related functionalities such as login, registration and user sessions. As the team decided to remove the user-related functionalities out of the scope, the User Backend is no longer in use. This leads the team to have only three independent components in the system, which does not satisfy the grading criteria; i.e., at least four independent components are required in the system. Thus, the team had to split Clinic Backend repository into Clinic Backend and Booking Backend repository.
+  - The team has completed all necessary features about booking functionalities by the end of Sprint 3. All remaining features and documentation will be conducted in Sprint 4 according to the original schedule.
 
 *Iteration week 7 (Sprint 4)*
 - There was no change in the schedule and the scope.
