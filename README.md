@@ -80,7 +80,6 @@ The project team has actively adopted the principles of Scrum in combination wit
   - *Sprint 3*: Front-end development
   - *Sprint 4*: Integration of the back-end and front-end & resolving any issue in development
 - Based one the grading criteria of the course, the team agreed on minimum viable products to deliver and also created a list of optional features which could be implemented to add extra value to the product; i.e. login functionality and the level of GUI aesthetics.
-- 
 
 *Iteration week 3 (Sprint 2)*
 - The original sprint-2 backlog has been updated during the sprint as the backlog items had to be broken down further to faciliate the members' work.
