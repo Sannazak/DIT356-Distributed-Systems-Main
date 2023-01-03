@@ -34,8 +34,37 @@ To implement the distributed nature of *Dens Cura*, the system has been develope
 - [Filter](https://git.chalmers.se/courses/dit355/dit356-2022/t-10/filter)
 
 ## Software Requirement Specification (SRS)
-This is a living document that all team members are updating frequently. As the readme file is not a suitable place to keep these changes, the SRS documentation is maintained in a shared document.
-This part will be updated before the final submission.
+Frontend:
+1. The system shall allow users to book appointments with dental clinics.
+2. The system shall contain a map-view over Gothenburg that can be navigated. 
+3. The system shall have a calendar displaying the times for booking.
+4. The system shall display only the times that are available for booking.
+5. The system shall display a message in case a user clicks on a time that is already booked.
+6. The system shall display a confirmation message when a booking is confirmed.
+7. The system shall have an option to find an existing booking.
+8. The system shall allow the user to cancel an existing booking.
+
+Booking Backend:
+1. The system shall make changes to booking availability as simultaneous bookings happen 
+2. The system shall reserve the time chosen in the calendar by the user for 5 minutes. 
+3. The system shall cancel the reservation if the booking is not confirmed within 5 minutes. 
+4. The booking shall contain email, SSN, first and last name of the user. 
+
+Clinic Backend:
+1. The booking slots shall have 30 minutes of duration 
+2. The booking shall require one dentist 
+3. The system shall allocate a lunch break of 1 hour per day to the dentist 
+4. The system shall allocate a Fika break of 30 minutes per day 
+
+Filter:
+1. The system shall veriry if booking requests are in JSON format
+2. The system shall guarantee no overload by using a load balancer 
+
+Broker:
+1. The system shall have middleware based on the MQTT protocol 
+2. Booking requests and responses shall be handled through MQTT 
+3. Stopped components must unsubscribe from the MQTT broker 
+4. The system shall guarantee a Qo2 level for 2 for all MQTT messages. 
 
 ## Software Architecture Document (SAD)
 ### Component diagram
