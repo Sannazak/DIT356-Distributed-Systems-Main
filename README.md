@@ -50,9 +50,10 @@ The project team has actively adopted the principles of Scrum in combination wit
   - Election of a Product Owner (PO) and a Scrum Master (SM)
   - The project consists of multiple sprints
   - Diverse Scrum artifacts; e.g., product backlog, sprint backlog
-  - Diverse sprint rituals; e.g., sprint planning, sprint review and sprint retrospective
+  - Diverse sprint rituals; e.g., sprint planning, bi-daily stand-ups, sprint review and sprint retrospective
 - [A kanban board in Trello](https://trello.com/b/mpXIOkcb/dit-356-2022-team-10)  has been used to facilitate the team's work with visual presentation of tasks
 - Each sprint started with a sprint planning where the team has decided the tasks, broken down large tasks and assigned tasks to members based on time estimation which was made considering each member's capability and availability.
+- Approximately every other day the team has had a stand-up meeting to discuss their progress, share issues and their plans for the upcoming two days with the other developers. 
 - Each sprint ended with a sprint retrospective and a sprint review.
   - In the sprint retrospectives, the team has reflected on how the agile practices had been used during the sprints as well as has discussed how the project, from the agile perspective, can be improved. The result of the sprint retrospectives is documented in each retrospective document and handed in on Canvas.
   - In each sprint, two sprint review sessions have been conducted. First sprint review sessions have been held at the team level, where the team discussed the performance during the sprints; this is what has been written in retrospective report submissions. For the second sprint reviews, the teaching assistant assigned to the team has also participated to provide constructive feedback. The results of the second sprint review sessions are reflected in the upcoming sprint's backlog creation and potential changes in the project scope.
@@ -83,7 +84,7 @@ The project team has actively adopted the principles of Scrum in combination wit
   - *Sprint 2*: Back-end development
   - *Sprint 3*: Front-end development
   - *Sprint 4*: Integration of the back-end and front-end & resolving any issue in development
-- Based on the grading criteria of the course, the team agreed on minimum viable products to deliver and also created a list of optional features which could be implemented to add extra value to the product; i.e., login functionality and the level of GUI aesthetics.
+- Based on the grading criteria of the course, the team agreed on minimum viable products to deliver and created a list of optional features which could be implemented to add extra value to the product; i.e., login functionality and the level of GUI aesthetics.
 
 *Iteration week 3 (Sprint 2)*
 - The original sprint-2 backlog has been updated during the sprint as the backlog items had to be broken down further to facilitate the members' work.
