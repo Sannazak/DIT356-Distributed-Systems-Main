@@ -34,19 +34,19 @@ To implement the distributed nature of *Dens Cura*, the system has been develope
 - [Filter](https://git.chalmers.se/courses/dit355/dit356-2022/t-10/filter)
 
 ## Software Requirement Specification (SRS)
-1. General Requirements
-1.1 The system shall have 4 distributed and independent components 
-1.2 The application shall not break when a faulty input is received. 
+1. General Requirements:<br>
+1.1 The system shall have 4 distributed and independent components<br> 
+1.2 The application shall not break when a faulty input is received<br>
 
-2. Frontend:
-2.1 The system shall allow users to book appointments with dental clinics.
-2.2 The system shall contain a map-view over Gothenburg that can be navigated. 
-2.3 The system shall have a calendar displaying the times for booking.
-2.4 The system shall display only the times that are available for booking.
-2.5 The system shall display a message in case a user clicks on a time that is already booked.
-2.6 The system shall display a confirmation message when a booking is confirmed.
-2.7 The system shall have an option to find an existing booking.
-2.8 The system shall allow the user to cancel an existing booking.
+2. Frontend:<br>
+2.1 The system shall allow users to book appointments with dental clinics.<br>
+2.2 The system shall contain a map-view over Gothenburg that can be navigated.<br>
+2.3 The system shall have a calendar displaying the times for booking.<br>
+2.4 The system shall display only the times that are available for booking.<br>
+2.5 The system shall display a message in case a user clicks on a time that is already booked.<br>
+2.6 The system shall display a confirmation message when a booking is confirmed.<br>
+2.7 The system shall have an option to find an existing booking.<br>
+2.8 The system shall allow the user to cancel an existing booking.<br>
 
 3. Booking Backend:
 3.1 The system shall make changes to booking availability as simultaneous bookings happen 
