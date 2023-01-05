@@ -38,6 +38,72 @@ This is a living document that all team members are updating frequently. As the 
 This part will be updated before the final submission.
 
 ## Software Architecture Document (SAD)
+ 
+ 
+
+ 
+
+Dens Cura is a distributed system with five components that communicate with a publish-subscribe communication protocol. This architectural style allows for data transfer between all components connected. For example, the frontend publishes a request to create a booking and the booking backend subscribing to this topic receives the request and handles it. This allows for good scalability and flexibility while still making it easy to add further subscribers.  
+
+ 
+ 
+
+Furthermore, for transformation of data is handled in a pipe and filter part of the system which allows for both maintainability and interoperability. This is since the filters can be changed, added or deleted without impacting other filters.  
+
+ 
+ 
+
+### Architecture Styles and Design Patterns: 
+
+- Publish and Subscribe 
+
+- Client-Server  
+
+- Layered Architecture 
+
+- MVC(Model-View-Controller) 
+
+- Pipe-Filter 
+
+- Broker 
+
+- Circuit Breaker
+
+
+
+ 
+ 
+
+### Conceptual design 
+
+Dens Cura is a system designed to solve an emerging problem in Sweden. The number of dentistry clinics is increasing year after year, and they are mostly using their own booking system. The result is that if you want to find time with a dentist you have to scour through sites looking for a time that fits you, and many times there is none.  
+
+ 
+ 
+
+To solve this we are developing Dens Cura, a service that congregates all the available dentistry times in one place. A map over Gothenburg will make it easy to find a clinic near you and an easy-to-understand calendar will give an overview of which times are available soon. 
+
+
+![Conceptual design](./conceptual_design.png)
+ 
+
+### Design decision and tactics 
+
+Dens Cura is designed as a quad-component distributed system which mainly communicates using an MQTT broker. The MQTT system was chosen for its high efficiency, fast communication and reliability. Using quality of service level 2(QoS2) it is guaranteed that each message is delivered once. 
+
+ 
+ 
+
+When developing Dens Cura the team planned for a level of emergent design to reduce the upfront planning cost. The system uses a load balancer to improve the availability and reliability by distributing the workload evenly among the nodes available. However, in the case of a high amount of traffic (or a denial-of-service attack) there is a circuit breaker that can trigger and prevent cascading failures.  
+
+ 
+ 
+
+For simplicities sake and to allow for horizontal expansion the data about bookings and clinics are stored in a document database. 
+
+### Deployment diagram
+![Deployment diagram with a high-level view](./deployment_diagram.png)
+
 ### Component diagram
 ![Component diagram with a high-level view](./component_diagram.png)
 
