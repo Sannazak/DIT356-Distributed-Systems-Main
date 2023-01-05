@@ -157,125 +157,49 @@ The project team has actively adopted the principles of Scrum in combination wit
 ![User cancels a booking](sequence-diagram_cancel-booking.png)
 <br/><br/><br/><br/>
 # *Installation and get started guide* 
-
- 
-
 This is the developer guide for Dens Cura.  
-
 The aim of this guide is to have all the information needed to continue developing  
  the project using our repository. During development we used a mix of Windows, Linux(Ubuntu) and MacOS. If you have a question, feel free to reach out to any of the creators. 
-
-
  <br/><br/>
-
 ## **The technologies and systems used in Dens Cura:** 
-
 * For all of our repositories we used **JavaScript**. 
-
 * The frontend uses **Vue-Bootstrap**. 
-
 * Most of our developers used **Visual Studio Code**(VSC). 
-
 * To handle our packets we used **Node Packet Manager**(NPM). 
-
 * During the project we kept our project on a **GitLab** hosted by Chalmers University of Technology. 
-
 <br/><br/>
 ## **What you need to get started:** 
-
- 
 **IDE** 
-
 * We suggest using Visual Studio Code if you are new to web development, as there is an abundande of online resrources about it. [Download](https://code.visualstudio.com/)  
-
- 
- 
-
 **Node** 
-
 * To continue developing the project you need Node-js installed. TThe following versions were used in the development: Windows v16.17.0 - Linux v12.22.9 - MacOS 14.20.0 - [Download](https://nodejs.org/en/download/) 
-
- 
- 
-
 **MongoDB Cloud Atlas** 
-
 * Cou can either store the data locally on your computer or do it online with a free service such as MongoDB Cloud Atlas. It can be found here: [Link](https://www.mongodb.com/atlas/database) 
-
  <br/><br/>
 ## Getting started: 
-
 1. Clone our repositories: [Frontend](https://git.chalmers.se/courses/dit355/dit356-2022/t-10/frontend), [Broker](https://git.chalmers.se/courses/dit355/dit356-2022/t-10/broker), [Filter](https://git.chalmers.se/courses/dit355/dit356-2022/t-10/filter), [Booking Backend](https://git.chalmers.se/courses/dit355/dit356-2022/t-10/booking-backend) and [Clinic Backend](https://git.chalmers.se/courses/dit355/dit356-2022/t-10/booking). 
-
- 
- 
-
 2. Open the five repositories in Visual Studio Code (or any IDE of your choice). For each repository, opens a new window so that each repository can work as an independent component.  
- 
-
 3. In each repository(window), run the command 'npm i' to install the required packages and wait for them to be installed. 
-
- 
-
 4. To start the different systems : 
-
 In the Frontend repository, run the command 'npm run serve'. For the rest of the repositories,  run the command 'npm start'. After this the repositories should all communicate with each other. To see if anything is not connecting properly you should go through the different terminals and look for error messages. 
-
- 
- 
-
 5. Visit [localhost:8080](http://localhost:8080/) in any brower to  see the frontend running. 
-
- 
- 
-
 6. When you update the systems, only the frontend automatically rerun with the changes made. For the other ones stopping them(Ctrl+C) and rerunning them(npm start) is neccesary. 
-
- 
- 
-
 7. You are now ready to start working on the project.  
-
- 
 <br/><br/>
- 
-
 ## MongoDB Cloud Atlas 
 
 ### How to create a DB online: 
 
 To allow you to store your data online on Cloud Atlas some setup is required. 
-
- 
- 
-
 1. First, go to; [MongoDB Cloud Atlas website](https://www.mongodb.com/atlas/database) 
-
 2. Follow the instructions and setup an organization with a project.
-
 3. In Connection Method chose "Connect using VS Code". 
-
 4. Copy the string under point 3 and add it to the server configuration files in the project. 
-
- 
- 
-
 The repositories should contain sample JSON files you can upload to have some data already. 
-
- 
 <br/><br/>
- 
-
 ## Other resources: 
-
 * Vue2-google-maps - [LINK](https://github.com/xkjyeah/vue-google-maps) 
-
 * Aedes MQTT server - [LINK](https://github.com/moscajs/aedes) 
-
-
  <br/><br/>
- 
- 
-
 # Roadmap and project status
 ![Roadmap](Roadmap.png)
