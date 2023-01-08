@@ -187,6 +187,7 @@ The project team has actively adopted the principles of Scrum in combination wit
 - As planned before, the team has focused on completing all planned tasks to ensure the project success. This includes finishing all mandatory and optional features as well as submitting the retrospective-4 report.
 
 ## Usage
+![User make a booking](sequence-diagram_make-booking.png)
 ![User searches a booking with booking ID](sequence-diagram_search-booking.png)
 ![User cancels a booking](sequence-diagram_cancel-booking.png)
 <br/><br/><br/><br/>
