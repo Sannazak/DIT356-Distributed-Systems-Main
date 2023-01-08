@@ -16,8 +16,8 @@ The project aims to develop a brand-new distributed system for dental clinic boo
 
 | Team member | Main Role | Tasks |
 | ------ | ------ | ------ |
-| Mijin Kim | Product Owner, Developer | Product backlog maintanance, contact point with clients, software development |
-| Erik Harring | Scrum Master, Developer | Support agile practice in the team, software development |
+| Mijin Kim | Product Owner, Developer | Product backlog maintanance, contact point with clients, Software development |
+| Erik Harring | Scrum Master, Developer | Support agile practice in the team, Software development |
 | Christopher Andersson | Developer | Software Development |
 | Jonathan Bergdahl | Developer | Software Development |
 | Sanna Evertsson | Developer | Git Responsible, Software Development |
