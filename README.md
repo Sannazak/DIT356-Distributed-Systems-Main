@@ -63,7 +63,7 @@ To implement the distributed nature of *Dens Cura*, the system has been develope
 5. Filter:<br>
 5.1. The system shall veriry if booking requests are in JSON format.<br>
 5.2. The system shall connect to the broker using MQTT. <br>
-5.3. The system shall connect to teh frontend using HPPT.<br>
+5.3. The system shall connect to teh frontend using HTTP.<br>
 
 6. Broker:<br>
 6.1. The system shall have middleware based on the MQTT protocol.<br>
