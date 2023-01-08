@@ -69,7 +69,7 @@ To implement the distributed nature of *Dens Cura*, the system has been develope
 6.1. The system shall have middleware based on the MQTT protocol.<br>
 6.2. Booking requests and responses shall be handled through MQTT.<br>
 6.3. Stopped components must unsubscribe from the MQTT broker.<br>
-6.4. The system shall guarantee a Qo2 level for 2 for all MQTT messages.<br>
+6.4. The system shall guarantee a QoS level 2 for all MQTT messages where possible.<br>
 
 ## Software Architecture Document (SAD)
 ### Component diagram
