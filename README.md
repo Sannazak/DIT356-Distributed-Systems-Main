@@ -34,8 +34,42 @@ To implement the distributed nature of *Dens Cura*, the system has been develope
 - [Filter](https://git.chalmers.se/courses/dit355/dit356-2022/t-10/filter)
 
 ## Software Requirement Specification (SRS)
-This is a living document that all team members are updating frequently. As the readme file is not a suitable place to keep these changes, the SRS documentation is maintained in a shared document.
-This part will be updated before the final submission.
+1. General Requirements:<br>
+1.1. The system shall have 4 distributed and independent components.<br> 
+1.2. The application shall not break when a faulty input is received.<br>
+
+2. Frontend:<br>
+2.1. The system shall allow users to book appointments with dental clinics.<br>
+2.2. The system shall contain a map-view over Gothenburg that can be navigated.<br>
+2.3. The system shall have a calendar displaying the times for booking.<br>
+2.4. The system shall display only the times that are available for booking.<br>
+2.5. The system shall display a message in case a user clicks on a time that is already booked.<br>
+2.6. The system shall display a confirmation message when a booking is confirmed.<br>
+2.7. The system shall have an option to find an existing booking.<br>
+2.8. The system shall allow the user to cancel an existing booking.<br>
+
+3. Booking Backend:<br>
+3.1. The system shall make changes to booking availability as simultaneous bookings happen.<br>
+3.2. The system shall reserve the time chosen in the calendar by the user for 5 minutes.<br>
+3.3. The system shall cancel the reservation if the booking is not confirmed within 5 minutes.<br>
+3.4. The booking shall contain email, SSN, first and last name of the user.<br>
+
+4. Clinic Backend:<br>
+4.1. The booking slots shall have 30 minutes of duration.<br>
+4.2. The booking shall require one dentist.<br>
+4.3. The system shall allocate a lunch break of 1 hour per day to the dentist.<br>
+4.4. The system shall allocate a Fika break of 30 minutes per day.<br>
+
+5. Filter:<br>
+5.1. The system shall verify if booking requests are in JSON format.<br>
+5.2. The system shall connect to the broker using MQTT. <br>
+5.3. The system shall connect to teh frontend using HTTP.<br>
+
+6. Broker:<br>
+6.1. The system shall have middleware based on the MQTT protocol.<br>
+6.2. Booking requests and responses shall be handled through MQTT.<br>
+6.3. Stopped components must unsubscribe from the MQTT broker.<br>
+6.4. The system shall guarantee a QoS level 2 for all MQTT messages where possible.<br>
 
 ## Software Architecture Document (SAD)
 
