@@ -32,6 +32,7 @@ To implement the distributed nature of *Dens Cura*, the system has been develope
 - [Frontend](https://git.chalmers.se/courses/dit355/dit356-2022/t-10/frontend)
 - [Broker](https://git.chalmers.se/courses/dit355/dit356-2022/t-10/broker)
 - [Filter](https://git.chalmers.se/courses/dit355/dit356-2022/t-10/filter)
+- [Load Balancing](https://git.chalmers.se/courses/dit355/dit356-2022/t-10/load-balancing)
 
 ## Software Requirement Specification (SRS)
 1. General Requirements:<br>
