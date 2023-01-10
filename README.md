@@ -215,7 +215,7 @@ The aim of this guide is to have all the information needed to continue developi
  <br/><br/>
 ## Getting started: 
 1. Clone our repositories: [Frontend](https://git.chalmers.se/courses/dit355/dit356-2022/t-10/frontend), [Broker](https://git.chalmers.se/courses/dit355/dit356-2022/t-10/broker), [Filter](https://git.chalmers.se/courses/dit355/dit356-2022/t-10/filter), [Booking Backend](https://git.chalmers.se/courses/dit355/dit356-2022/t-10/booking-backend), [Load Balancing](https://git.chalmers.se/courses/dit355/dit356-2022/t-10/load-balancing) and [Clinic Backend](https://git.chalmers.se/courses/dit355/dit356-2022/t-10/booking). 
-2. Open the five repositories in Visual Studio Code except load balancing (or any IDE of your choice). For each repository, opens a new window so that each repository can work as an independent component.  
+2. Open the five repositories in Visual Studio Code except load balancing (or any IDE of your choice). For each repository, opens a new window so that each repository can work as an independent component. For the Load Balancer repository simply open the nginx.exe file  
 3. In each repository(window), run the command 'npm i' to install the required packages and wait for them to be installed. 
 4. To start the different systems : 
 In the Frontend repository, run the command 'npm run serve'. The load balancer is by default set to four instances of the filter so you need to start it separately running on ports 3000, 3001, 3002 and 3003 by changing the code and running it with 'npm start'
