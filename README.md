@@ -202,6 +202,7 @@ The aim of this guide is to have all the information needed to continue developi
 * Most of our developers used **Visual Studio Code**(VSC). 
 * To handle our packets we used **Node Packet Manager**(NPM). 
 * During the project we kept our project on a **GitLab** hosted by Chalmers University of Technology. 
+* For load balancing we are using nginx.
 <br/><br/>
 ## **What you need to get started:** 
 **IDE** 
@@ -209,14 +210,16 @@ The aim of this guide is to have all the information needed to continue developi
 **Node** 
 * To continue developing the project you need Node-js installed. TThe following versions were used in the development: Windows v16.17.0 - Linux v12.22.9 - MacOS 14.20.0 - [Download](https://nodejs.org/en/download/) 
 **MongoDB Cloud Atlas** 
-* Cou can either store the data locally on your computer or do it online with a free service such as MongoDB Cloud Atlas. It can be found here: [Link](https://www.mongodb.com/atlas/database) 
+*You can either store the data locally on your computer or do it online with a free service such as MongoDB Cloud Atlas. It can be found here: [Link](https://www.mongodb.com/atlas/database)
+* The preconfigured NGINX file is an .exe file for Windows, to run it on either Linux or OSX some changes needs to be made
  <br/><br/>
 ## Getting started: 
-1. Clone our repositories: [Frontend](https://git.chalmers.se/courses/dit355/dit356-2022/t-10/frontend), [Broker](https://git.chalmers.se/courses/dit355/dit356-2022/t-10/broker), [Filter](https://git.chalmers.se/courses/dit355/dit356-2022/t-10/filter), [Booking Backend](https://git.chalmers.se/courses/dit355/dit356-2022/t-10/booking-backend) and [Clinic Backend](https://git.chalmers.se/courses/dit355/dit356-2022/t-10/booking). 
-2. Open the five repositories in Visual Studio Code (or any IDE of your choice). For each repository, opens a new window so that each repository can work as an independent component.  
+1. Clone our repositories: [Frontend](https://git.chalmers.se/courses/dit355/dit356-2022/t-10/frontend), [Broker](https://git.chalmers.se/courses/dit355/dit356-2022/t-10/broker), [Filter](https://git.chalmers.se/courses/dit355/dit356-2022/t-10/filter), [Booking Backend](https://git.chalmers.se/courses/dit355/dit356-2022/t-10/booking-backend), [Load Balancing](https://git.chalmers.se/courses/dit355/dit356-2022/t-10/load-balancing) and [Clinic Backend](https://git.chalmers.se/courses/dit355/dit356-2022/t-10/booking). 
+2. Open the five repositories in Visual Studio Code except load balancing (or any IDE of your choice). For each repository, opens a new window so that each repository can work as an independent component.  
 3. In each repository(window), run the command 'npm i' to install the required packages and wait for them to be installed. 
 4. To start the different systems : 
-In the Frontend repository, run the command 'npm run serve'. For the rest of the repositories,  run the command 'npm start'. After this the repositories should all communicate with each other. To see if anything is not connecting properly you should go through the different terminals and look for error messages. 
+In the Frontend repository, run the command 'npm run serve'. The load balancer is by default set to four instances of the filter so you need to start it separately running on ports 3000, 3001, 3002 and 3003 by changing the code and running it with 'npm start'
+For the rest of the repositories,  run the command 'npm start'. After this the repositories should all communicate with each other. To see if anything is not connecting properly you should go through the different terminals and look for error messages. 
 5. Visit [localhost:8080](http://localhost:8080/) in any brower to  see the frontend running. 
 6. When you update the systems, only the frontend automatically rerun with the changes made. For the other ones stopping them(Ctrl+C) and rerunning them(npm start) is neccesary. 
 7. You are now ready to start working on the project.  
@@ -235,6 +238,7 @@ The repositories should contain sample JSON files you can upload to have some da
 ## Other resources: 
 * Vue2-google-maps - [LINK](https://github.com/xkjyeah/vue-google-maps) 
 * Aedes MQTT server - [LINK](https://github.com/moscajs/aedes) 
+* NGINX Load Balancer - [LINK](https://www.nginx.com/)
  <br/><br/>
 # Roadmap and project status
 ![Roadmap](Roadmap.png)
