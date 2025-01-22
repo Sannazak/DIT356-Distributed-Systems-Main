@@ -27,12 +27,12 @@ The project aims to develop a brand-new distributed system for dental clinic boo
 
 ## Project repositories
 To implement the distributed nature of *Dens Cura*, the system has been developed in the following five repositories in GitLab:
-- [Booking Backend](https://git.chalmers.se/courses/dit355/dit356-2022/t-10/booking-backend)
-- [Clinic backend](https://git.chalmers.se/courses/dit355/dit356-2022/t-10/booking)
-- [Frontend](https://git.chalmers.se/courses/dit355/dit356-2022/t-10/frontend)
-- [Broker](https://git.chalmers.se/courses/dit355/dit356-2022/t-10/broker)
-- [Filter](https://git.chalmers.se/courses/dit355/dit356-2022/t-10/filter)
-- [Load Balancing](https://git.chalmers.se/courses/dit355/dit356-2022/t-10/load-balancing)
+- [Booking Backend](https://github.com/Sannazak/DIT356-Distributed-Systems-Booking-Backend)
+- [Clinic backend](https://github.com/Sannazak/DIT356-Distributed-Systems-Clinic-Backend)
+- [Frontend](https://github.com/Sannazak/DIT356-Distributed-Systems-Frontend)
+- [Broker](https://github.com/Sannazak/DIT356-Distributed-Systems-Broker)
+- [Filter](https://github.com/Sannazak/DIT356-Distributed-Systems-Filter)
+- [Load Balancing](https://github.com/Sannazak/DIT356-Distributed-Systems-Load-Balancing)
 
 ## Software Requirement Specification (SRS)
 1. General Requirements:<br>
